@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubble</title>
+    <style>
+        body{
+            border: 2px solid salmon;
+        }
+        section{
+            border: 2px solid teal;
+        }
+        ul{
+            border: 2px solid hotpink;
+        }
+        #item2{
+            border: 2px solid rgb(41, 28, 114);
+        }
+    </style>
+</head>
+<body id="body">
+    <h1>Exploring Event Bubble</h1>
+    <section id="list-container">
+        <ul id="list-items">
+            <li id="item1">Lorem, ipsum dolor.</li>
+            <li id="item2">Atque, porro eaque.</li>
+            <li id="item3">Quis, mollitia aspernatur.</li>
+            <li id="item4">Numquam, maxime vel.</li>
+            <li id="item5">At, asperiores doloremque.</li>
+            <li id="item6">Iusto, quasi? Quibusdam.</li>
+        </ul>
+    </section>
+    <script src="./bubble.js"></script>
+</body>
+</html>
